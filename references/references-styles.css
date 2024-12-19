@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+    
+/*nav*/
+
+.navbar-container {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 10px;
+    
+    
+}
+
+.navbar {
+    
+    display: block;
+    list-style: none;
+    align-content: center;
+
+}
+
+li {
+    display: block;
+    float: left;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    color: white;
+    font-family: "Poppins";
+    font-size: 2vh;
+    text-align: center;
+}
+
+a {
+    
+    color: white;
+    text-decoration: none;
+    transition: color ease-in-out 1s;
+}
+
+a:hover, a:focus{
+    color: red;
+    font-size: 2.1vh;
+}
+
+
+/*header*/
+
+.header-container{
+    z-index: -1;
+}
+
+.header-textcontainer{
+    z-index: 0;
+    width: 100%;
+
+    top: 20px;
+}
+
+.header-texth1{
+    width: 1200px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    color: black;
+    
+}
+
+
+/*articles*/
+
+.article-title {
+    text-align: center;
+    width: 60%;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-video {
+    display: block;
+    width: 80%; 
+    height: 800px;
+
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: none;
+    
+    
+}
+
+/*sections*/
+
+.sprite1 {
+    display: block;
+    z-index: 1;
+    width: 1970px; height: 610px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    zoom: 30%;
+    background: url("images/sprite-logo.png") -10px -2190px;
+}
+
+.sprite2 {
+    display: block;
+    z-index: 1;
+    width: 1024px; 
+    height: 333px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    zoom: 60%;
+    background: url("images/sprite-logo.png") -2000px -2190px;
+}
+
+
+.sprite3 {
+    display: block;
+    z-index: 1;
+    width: 3840px; 
+    height: 2160px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    zoom:12%;
+    background: url("images/sprite-logo.png") -10px -10px;
+}
+
+
+[class ^="section"][class $= "-text"] {
+    text-align: center;
+    width: 80%;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*footer*/
+
+/*general*/
+
+:root {
+    background-color: white;
+
+}
+::selection {
+    color: green;
+    background-color: beige;
+}
+
+h1 {
+    
+    font-family: "Poppins";
+    font-size: 12vh;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 4vh;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-size: 6vh;
+}
+
+h4 {
+    font-family: "Poppins";
+    font-size: 3vh;
+}
+
+hr {
+    width: auto;
+    height: 80px;
+    margin: 0;
+    display: block;
+    
+    clear:left;
+    border: none;    
+    background-color: #121213;
+}
+
+
